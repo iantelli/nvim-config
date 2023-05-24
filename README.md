@@ -5,6 +5,7 @@
 - [x] html
 - [x] css
 - [x] tailwind
+- [x] prettierd
 - [ ] rust
 - [ ] go
 
