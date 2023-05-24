@@ -14,3 +14,4 @@
 - [null-ls](https://github.com/jose-elias-alvarez/null-ls.nvim) 
 - [copilot](https://github.com/zbirenbaum/copilot.lua)
 - [copilot-cmp](https://github.com/zbirenbaum/copilot-cmp)
+- [nvim-surround](https://github.com/kylechui/nvim-surround)
