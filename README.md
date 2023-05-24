@@ -5,8 +5,8 @@
 - [x] html
 - [x] css
 - [x] tailwind
-- [] rust
-- [] go
+- [ ] rust
+- [ ] go
 
 ### List of Plugins:
 - [autotag](https://github.com/windwp/nvim-ts-autotag)
