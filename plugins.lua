@@ -8,6 +8,7 @@ local plugins = {
         "css-lsp",
         "prettierd",
         "html-lsp",
+        "marksman",
       },
     },
   },
@@ -28,8 +29,7 @@ local plugins = {
     "windwp/nvim-ts-autotag",
     dependencies = "nvim-treesitter/nvim-treesitter",
     config = function ()
-      require("nvim-ts-autotag").setup({
-      })
+      require("nvim-ts-autotag").setup({})
     end,
     lazy = true,
     event = "VeryLazy"
@@ -65,7 +65,7 @@ local plugins = {
     "kylechui/nvim-surround",
     version = "*",
     event = "VeryLazy",
-    config = function ()
+    config = function()
       require("nvim-surround").setup({})
     end
   },

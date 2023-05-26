@@ -4,8 +4,11 @@ local augroup = vim.api.nvim_create_augroup("LspFormatting", {})
 local opts = {
   sources = {
     null_ls.builtins.formatting.prettierd,
+    null_ls.builtins.formatting.stylua,
   },
   on_attach = function(client, bufnr)
+    client.server_capabilities.documentFormattingProvider = false
+    client.server_capabilities.documentRangeFormattingProvider = false
     if client.supports_method("textDocument/formatting") then
       vim.api.nvim_clear_autocmds({
         group = augroup,
